@@ -1,6 +1,7 @@
 package com.gregtechceu.gtceu.common.machine.multiblock.part;
 
 import com.gregtechceu.gtceu.api.blockentity.IPaintable;
+import com.gregtechceu.gtceu.api.capability.ILockableHatch;
 import com.gregtechceu.gtceu.api.capability.recipe.IO;
 import com.gregtechceu.gtceu.api.gui.GuiTextures;
 import com.gregtechceu.gtceu.api.gui.fancy.ConfiguratorPanel;
@@ -56,7 +57,8 @@ import javax.annotation.ParametersAreNonnullByDefault;
 
 @ParametersAreNonnullByDefault
 @MethodsReturnNonnullByDefault
-public class FluidHatchPartMachine extends TieredIOPartMachine implements IMachineLife, IHasCircuitSlot, IPaintable {
+public class FluidHatchPartMachine extends TieredIOPartMachine
+                                   implements IMachineLife, IHasCircuitSlot, IPaintable, ILockableHatch {
 
     protected static final ManagedFieldHolder MANAGED_FIELD_HOLDER = new ManagedFieldHolder(FluidHatchPartMachine.class,
             TieredIOPartMachine.MANAGED_FIELD_HOLDER);

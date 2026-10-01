@@ -1,6 +1,7 @@
 package com.gregtechceu.gtceu.common.machine.multiblock.part;
 
 import com.gregtechceu.gtceu.api.blockentity.IPaintable;
+import com.gregtechceu.gtceu.api.capability.ILockableHatch;
 import com.gregtechceu.gtceu.api.capability.recipe.IO;
 import com.gregtechceu.gtceu.api.cover.filter.FilterHandler;
 import com.gregtechceu.gtceu.api.cover.filter.FilterHandlers;
@@ -56,7 +57,7 @@ import javax.annotation.ParametersAreNonnullByDefault;
 @ParametersAreNonnullByDefault
 @MethodsReturnNonnullByDefault
 public class ItemBusPartMachine extends TieredIOPartMachine
-                                implements IDistinctPart, IMachineLife, IHasCircuitSlot, IPaintable {
+                                implements IDistinctPart, IMachineLife, IHasCircuitSlot, IPaintable, ILockableHatch {
 
     protected static final ManagedFieldHolder MANAGED_FIELD_HOLDER = new ManagedFieldHolder(ItemBusPartMachine.class,
             TieredIOPartMachine.MANAGED_FIELD_HOLDER);
