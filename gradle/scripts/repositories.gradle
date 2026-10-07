@@ -26,7 +26,7 @@ repositories {
     }
 
     maven {  // AE2UELM
-        url = "https://repo.expandium.net/snapshots/"
+        url = "https://repo.expandium.net/releases"
     }
 
     exclusiveContent { // Create, Ponder, Flywheel
