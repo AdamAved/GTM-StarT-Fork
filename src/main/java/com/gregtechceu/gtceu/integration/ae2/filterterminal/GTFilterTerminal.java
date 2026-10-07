@@ -93,7 +93,14 @@ final class GTFilterTerminal {
             if (stack.what().getType() != keyType || stack.amount() <= 0 || stack.amount() > MAX_AMOUNT) {
                 return false;
             }
-            return !stocking || !slots.hasStackInConfig(stack, true);
+            if (!stocking) {
+                return true;
+            }
+            var current = getConfig(slot);
+            if (current != null && current.what().equals(stack.what())) {
+                return true;
+            }
+            return !slots.hasStackInConfig(stack, true);
         }
 
         @Override
