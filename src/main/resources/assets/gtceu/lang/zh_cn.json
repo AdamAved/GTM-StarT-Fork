@@ -5658,6 +5658,8 @@
     "metaarmor.message.nightvision.disabled": "§b夜视：§c关闭",
     "metaarmor.message.nightvision.enabled": "§b夜视：§a开启",
     "metaarmor.message.nightvision.error": "§c能量不足！",
+    "metaarmor.message.step_assist.enabled": "§bStep Assist: §aOn",
+    "metaarmor.message.step_assist.disabled": "§bStep Assist: §cOff",
     "metaarmor.nms.boosted_jump.disabled": "纳米肌体™套装：跳跃提升已禁用",
     "metaarmor.nms.boosted_jump.enabled": "纳米肌体™套装：跳跃提升已启用",
     "metaarmor.nms.nightvision.disabled": "纳米肌体™套装：夜视已禁用",

@@ -2734,6 +2734,8 @@
     "metaarmor.message.nightvision.disabled": "§bНочное зрение: §aВыкл",
     "metaarmor.message.nightvision.enabled": "§bНочное зрение: §aВкл",
     "metaarmor.message.nightvision.error": "§cНедостаточно энергии!",
+    "metaarmor.message.step_assist.enabled": "§bStep Assist: §aOn",
+    "metaarmor.message.step_assist.disabled": "§bStep Assist: §cOff",
     "metaarmor.nms.nightvision.disabled": "NanoMuscle™ броня: ПНВ выключено",
     "metaarmor.nms.nightvision.enabled": "NanoMuscle™ броня: ПНВ включено",
     "metaarmor.nms.nightvision.error": "NanoMuscle™ броня: §cНедостаточно энергии!",

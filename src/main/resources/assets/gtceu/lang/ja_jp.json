@@ -5642,6 +5642,8 @@
   "metaarmor.message.nightvision.disabled": "暗視: Off",
   "metaarmor.message.nightvision.enabled": "暗視: On",
   "metaarmor.message.nightvision.error": "エネルギー不足!",
+  "metaarmor.message.step_assist.enabled": "§bStep Assist: §aOn",
+  "metaarmor.message.step_assist.disabled": "§bStep Assist: §cOff",
   "metaarmor.nms.boosted_jump.disabled": "NanoMuscle™ スーツ: ジャンプブースト無効化",
   "metaarmor.nms.boosted_jump.enabled": "NanoMuscle™ スーツ: ジャンプブースト有効化",
   "metaarmor.nms.nightvision.disabled": "NanoMuscle™ スーツ: 暗視を無効化",

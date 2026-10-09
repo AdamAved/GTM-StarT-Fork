@@ -5877,6 +5877,8 @@
   "metaarmor.message.nightvision.disabled": "§b야간 투시: §c꺼짐",
   "metaarmor.message.nightvision.enabled": "§b야간 투시: §a켜짐",
   "metaarmor.message.nightvision.error": "§c전력이 부족합니다!",
+  "metaarmor.message.step_assist.enabled": "§bStep Assist: §aOn",
+  "metaarmor.message.step_assist.disabled": "§bStep Assist: §cOff",
   "metaarmor.nms.nightvision.disabled": "나노 근육 보강™ 슈트: 야간 투시 비활성화됨",
   "metaarmor.nms.nightvision.enabled": "나노 근육 보강™ 슈트: 야간 투시 활성화됨",
   "metaarmor.nms.nightvision.error": "나노 근육 보강™ 슈트: §c전력이 부족합니다!",

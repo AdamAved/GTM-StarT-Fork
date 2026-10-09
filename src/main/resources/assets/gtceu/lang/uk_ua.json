@@ -5673,6 +5673,8 @@
   "metaarmor.message.nightvision.disabled": "§bНічне бачення:§c Вимкнено",
   "metaarmor.message.nightvision.enabled": "§bНічне бачення:§a Увімкнено",
   "metaarmor.message.nightvision.error": "§cНедостатньо енергії!",
+  "metaarmor.message.step_assist.enabled": "§bStep Assist: §aOn",
+  "metaarmor.message.step_assist.disabled": "§bStep Assist: §cOff",
   "metaarmor.nms.boosted_jump.disabled": "Комплект NanoMuscle™: Посилення стрибків вимкнено",
   "metaarmor.nms.boosted_jump.enabled": "Комплект NanoMuscle™: Прискорення стрибків увімкнено",
   "metaarmor.nms.nightvision.disabled": "Комплект NanoMuscle™: Нічне бачення вимкнено",
